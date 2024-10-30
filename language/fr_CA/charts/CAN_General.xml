@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE xml>
+<ChartofAccounts>
+	<title>CA - Magasin général Plan comptable simple (Entreprise individuelle)</title>
+	<defaults>
+		<type><id> 0</id><account>1050</account><title>Banque</title></type>
+		<type><id> 2</id><account>1200</account><title>Comptes clients</title></type>
+		<type><id> 4</id><account>1530</account><title>Inventaire</title></type>
+		<type><id> 6</id><account>1300</account><title>Autre actif à court terme</title></type>
+		<type><id> 8</id><account>1820</account><title>Immobilisation</title></type>
+		<type><id>10</id><account>1825</account><title>Amortissement cumulé</title></type>
+		<type><id>12</id><account>1220</account><title>Autres sommes à recevoir</title></type>
+		<type><id>20</id><account>2100</account><title>Comptes fournisseurs</title></type>
+		<type><id>22</id><account>2140</account><title>Autre passifs à court terme</title></type>
+		<type><id>24</id><account>2620</account><title>Passifs long terme</title></type>
+		<type><id>30</id><account>4030</account><title>Produits d'exploitation</title></type>
+		<type><id>32</id><account>5030</account><title>Coût des marchandises vendus</title></type>
+		<type><id>34</id><account>5740</account><title>Frais généraux &amp; admin.</title></type>
+		<type><id>40</id><account>3015</account><title>Retrait du propriétaire/associé</title></type>
+		<type><id>42</id><account>3010</account><title>Apport du propriétaire/associé</title></type>
+		<type><id>44</id><account>3560</account><title>Bénéfices non répartis</title></type>
+	</defaults>
+	
+	<account><id>1000</id><type> 0</type><title>ACTIFS À COURT TERME</title></account>
+	<account><id>1020</id><type> 0</type><title>Tans. au comptant à déposer</title></account>
+	<account><id>1030</id><type> 0</type><title>Petite caisse</title></account>
+	<account><id>1040</id><type> 0</type><title>Compte PayPal</title></account>
+	<account><id>1042</id><type> 0</type><title>Compte Amazon</title></account>
+	<account><id>1050</id><type> 0</type><title>Compte bancaire</title></account>
+	<account><id>1060</id><type> 0</type><title>Compte bancaire en devise</title></account>
+	<account><id>1080</id><type> 2</type><title>Visa à recevoir</title></account>
+	<account><id>1082</id><type> 2</type><title>MasterCard à recevoir</title></account>
+	<account><id>1084</id><type> 2</type><title>American Express à recevoir</title></account>
+	<account><id>1200</id><type> 2</type><title>Comptes clients</title></account>
+	<account><id>1205</id><type> 2</type><title>Provision pour créances douteuses</title></account>
+	<account><id>1220</id><type> 12</type><title>Avances &amp; Prêts</title></account>
+	<account><id>1300</id><type> 6</type><title>Achats prépayés</title></account>
+	<account><id>1320</id><type> 6</type><title>Charges prépayées</title></account>
+	<account><id>1500</id><type> 4</type><title>ACTIFS DE STOCK</title></account>
+  	<account><id>1505</id><type> 4</type><title>Services d'assamblages</title></account>
+	<account><id>1510</id><type> 4</type><title>Modèles</title></account>
+	<account><id>1515</id><type> 4</type><title>Autres</title></account>
+	<account><id>1520</id><type> 4</type><title>Caméras</title></account>
+	<account><id>1530</id><type> 4</type><title>Divers</title></account>
+	<account><id>1540</id><type> 4</type><title>Éclairage &amp; Studio</title></account>
+	<account><id>1550</id><type> 4</type><title>Objectifs</title></account>
+	<account><id>1560</id><type> 4</type><title>Réflecteurs &amp; Diffuseurs</title></account>
+	<account><id>1570</id><type> 4</type><title>Sacs &amp; Courroies</title></account>
+	<account><id>1580</id><type> 4</type><title>Trépieds &amp; Supports</title></account>
+	<account><id>1800</id><type> 8</type><title>IMMOBILISATIONS</title></account>
+	<account><id>1820</id><type> 8</type><title>Mobilier de bureau &amp; Équipement</title></account>
+	<account><id>1825</id><type>10</type><title>Amort. Cumul. - Mob. &amp; Équip.</title></account>
+	<account><id>1840</id><type>08</type><title>Véhicule</title></account>
+	<account><id>1850</id><type>10</type><title>Amort. Cumul. - Véhicule</title></account>
+	<account><id>2000</id><type>22</type><title>PASSIF À COURT TERME</title></account>
+	<account><id>2100</id><type>20</type><title>Comptes fournisseurs</title></account>
+	<account><id>2105</id><type>22</type><title>Pmt anticipé &amp; réduction sur achats</title></account>
+	<account><id>2110</id><type>22</type><title>Frais courus à payer</title></account>
+	<account><id>2120</id><type>22</type><title>Marge de crédit</title></account>
+	<account><id>2132</id><type>22</type><title>Visa à payer</title></account>
+	<account><id>2134</id><type>22</type><title>Master Card à payer</title></account>
+	<account><id>2160</id><type>22</type><title>Impôt féd. entreprise à payer</title></account>
+	<account><id>2165</id><type>22</type><title>Impôt prov. entreprise à payer</title></account>
+	<account><id>2170</id><type>22</type><title>Vacances à payer</title></account>
+	<account><id>2180</id><type>22</type><title>Assurance-emploi à payer</title></account>
+	<account><id>2185</id><type>22</type><title>RPC à paye</title></account>
+	<account><id>2190</id><type>22</type><title>Imp féd. employés à payer</title></account>
+	<account><id>2200</id><type>22</type><title>RRQ à payer</title></account>
+	<account><id>2205</id><type>22</type><title>FSSQ à payer</title></account>
+	<account><id>2210</id><type>22</type><title>RQAP à payer</title></account>
+	<account><id>2212</id><type>22</type><title>Imp prov. employés à payer</title></account>
+	<account><id>2220</id><type>22</type><title>CSST à payer</title></account>
+	<account><id>2230</id><type>22</type><title>CNT à payer</title></account>
+	<account><id>2310</id><type>22</type><title>TPS perçu sur ventes</title></account>
+	<account><id>2315</id><type>22</type><title>TPS payée sur achats</title></account>
+	<account><id>2340</id><type>22</type><title>TVQ perçu sur ventes</title></account>
+	<account><id>2345</id><type>22</type><title>TVQ payée sur achats</title></account>
+	<account><id>2460</id><type>22</type><title>Ventes prépayées - Acomptes</title></account>
+	<account><id>2600</id><type>24</type><title>PASSIF À LONG TERME</title></account>
+	<account><id>2620</id><type>24</type><title>Emprunts bancaires</title></account>
+	<account><id>2630</id><type>24</type><title>Hypothèque à payer</title></account>
+	<account><id>2680</id><type>24</type><title>Prêts des actionnaires</title></account>
+	<account><id>3000</id><type>44</type><title>AVOIR DES PROPRIÉTAIRES</title></account>
+	<account><id>3010</id><type>42</type><title>Apport des propriétaires</title></account>
+	<account><id>3015</id><type>40</type><title>Retraits - Propriétaires</title></account>
+	<account><id>3560</id><type>44</type><title>Bénéfices non répartis-exerc. préc.</title></account>
+	<account><id>3600</id><type>44</type><title>Bénéfice net</title></account>
+	<account><id>4000</id><type>30</type><title>PRODUIT DES VENTES</title></account>
+	<account><id>4001</id><type>30</type><title>Vente de services</title></account>
+	<account><id>4005</id><type>30</type><title>Services d'assemblages</title></account>
+	<account><id>4010</id><type>30</type><title>Matériel: Modèles</title></account>
+	<account><id>4015</id><type>30</type><title>Matériel: Autres</title></account>
+	<account><id>4020</id><type>30</type><title>Matériel: Caméras</title></account>
+	<account><id>4030</id><type>30</type><title>Matériel: Divers</title></account>
+	<account><id>4040</id><type>30</type><title>Matériel: Éclairage &amp; Studio</title></account>
+	<account><id>4050</id><type>30</type><title>Matériel: Objectifs</title></account>
+	<account><id>4060</id><type>30</type><title>Matériel: Réflecteurs &amp; Diffuseurs</title></account>
+	<account><id>4070</id><type>30</type><title>Matériel: Sacs &amp; Courroies</title></account>
+	<account><id>4080</id><type>30</type><title>Matériel: Trépieds &amp; Supports</title></account>
+	<account><id>4220</id><type>30</type><title>Retours sur ventes</title></account>
+	<account><id>4240</id><type>30</type><title>Pmt anticipé &amp; Réduction sur ventes</title></account>
+	<account><id>4400</id><type>30</type><title>AUTRE PRODUIT</title></account>	
+	<account><id>4420</id><type>30</type><title>Produit de transport</title></account>
+	<account><id>4440</id><type>30</type><title>Revenu d'intérêt</title></account>
+	<account><id>5000</id><type>32</type><title>COÛT DES MARCHANDISES VENDUES</title></account>
+	<account><id>5005</id><type>32</type><title>Coûts d'assemblages</title></account>
+	<account><id>5010</id><type>32</type><title>Matériel: Modèles</title></account>
+	<account><id>5015</id><type>32</type><title>Matériel: Autres</title></account>
+	<account><id>5020</id><type>32</type><title>Matériel: Caméras</title></account>
+	<account><id>5030</id><type>32</type><title>Matériel: Divers</title></account>
+	<account><id>5040</id><type>32</type><title>Matériel: Éclairage &amp; Studio</title></account>
+	<account><id>5050</id><type>32</type><title>Matériel: Objectifs</title></account>
+	<account><id>5060</id><type>32</type><title>Matériel: Réflecteurs &amp; Diffuseurs</title></account>
+	<account><id>5070</id><type>32</type><title>Matériel: Sacs &amp; Courroies</title></account>
+	<account><id>5080</id><type>32</type><title>Matériel: Trépieds &amp; Supports</title></account>	
+	<account><id>5100</id><type>32</type><title>Écart des pix de stock</title></account>
+	<account><id>5120</id><type>32</type><title>Coûts de l'assemblage des articles</title></account>
+	<account><id>5130</id><type>32</type><title>Radiation d'ajustement</title></account>
+	<account><id>5220</id><type>32</type><title>Retours sur achats</title></account>
+	<account><id>5300</id><type>32</type><title>Frais de transport</title></account>
+	<account><id>5400</id><type>34</type><title>CHARGES SALARIALES</title></account>
+	<account><id>5405</id><type>34</type><title>Salaires d'assemblages</title></account>
+	<account><id>5410</id><type>34</type><title>Salaires &amp; traitements</title></account>
+	<account><id>5415</id><type>34</type><title>Charges d'assemblages</title></account>
+	<account><id>5420</id><type>34</type><title>Charge de A-E</title></account>
+	<account><id>5425</id><type>34</type><title>Charge de RQAP</title></account>
+	<account><id>5430</id><type>34</type><title>Charge du RPC</title></account>
+	<account><id>5440</id><type>34</type><title>Charge CSST</title></account>
+	<account><id>5450</id><type>34</type><title>Charge RRQ</title></account>
+	<account><id>5455</id><type>34</type><title>Charge FSS</title></account>
+	<account><id>5460</id><type>34</type><title>Charge CNT</title></account>
+	<account><id>5470</id><type>34</type><title>Avantage sociaux</title></account>
+	<account><id>5480</id><type>34</type><title>Allocation de voyage</title></account>
+	<account><id>5600</id><type>34</type><title>FRAIS GÉNÉRAUX D'AMINISTRATION</title></account>
+	<account><id>5610</id><type>34</type><title>Frais comptable &amp; judiciaire</title></account>
+	<account><id>5615</id><type>34</type><title>Publicité &amp; promotions</title></account>
+	<account><id>5620</id><type>34</type><title>Créances irrécouvrables</title></account>
+	<account><id>5625</id><type>34</type><title>Frais de licences d'affaires</title></account>
+	<account><id>5630</id><type>34</type><title>Écart de caisse</title></account>
+	<account><id>5635</id><type>34</type><title>Frais de gestion &amp; administration</title></account>
+	<account><id>5640</id><type>34</type><title>Courrier &amp; frais postaux</title></account>
+	<account><id>5645</id><type>34</type><title>Frais de carte de crédit</title></account>
+	<account><id>5650</id><type>34</type><title>Échange et arrondissement de devise</title></account>
+	<account><id>5685</id><type>34</type><title>Assurance</title></account>
+	<account><id>5690</id><type>34</type><title>Intérêt &amp; frais bancaires</title></account>
+	<account><id>5700</id><type>34</type><title>Fournitures de bureau</title></account>
+	<account><id>5710</id><type>34</type><title>Fourniture d'expédition</title></account>
+	<account><id>5720</id><type>34</type><title>Impôts fonciers</title></account>
+	<account><id>5730</id><type>34</type><title>Entretien &amp; réparation auto</title></account>
+	<account><id>5740</id><type>34</type><title>Divers</title></account>
+	<account><id>5750</id><type>34</type><title>Gains/Pertes de change réalisés</title></account>
+	<account><id>5760</id><type>34</type><title>Loyer</title></account>
+	<account><id>5765</id><type>34</type><title>Réparations &amp; entretien</title></account>
+	<account><id>5780</id><type>34</type><title>Téléphone</title></account>
+	<account><id>5784</id><type>34</type><title>Voyages &amp; loisirs</title></account>
+	<account><id>5785</id><type>34</type><title>Voyages &amp; loisirs:Non-remboursable</title></account>
+	<account><id>5790</id><type>34</type><title>Services publics</title></account>
+	<account><id>5805</id><type>34</type><title>Frais d'intérêts et pénalitées</title></account>
+	<account><id>5810</id><type>34</type><title>Commissions de Visa</title></account>
+	<account><id>5815</id><type>34</type><title>Commissions de MasterCard</title></account>
+	<account><id>5820</id><type>34</type><title>Commissions d’American Express</title></account>
+	<account><id>5825</id><type>34</type><title>Commissions de PayPal</title></account>
+	<account><id>5970</id><type>34</type><title>Amortissement de l'exercice</title></account>
+	<account><id>5980</id><type>34</type><title>Provision impôt sur le revenu</title></account>
+	
+</ChartofAccounts>

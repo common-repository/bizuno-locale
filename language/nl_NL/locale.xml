@@ -1,0 +1,3502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE xml>
+<Data>	<Description><![CDATA[Contains the locales including countries, currencies and formats (date, time, numbers)]]></Description>
+	<Notes><![CDATA[Format:
+    Country -> Title (English), ISO2, ISO3
+        Region -> Code, Title (English)
+    Currency -> ISO, Title, Precision (2), Prefix (null), Suffix (null), Decimal (.), Thousand(,), PrefixNegative(-), SuffixNegative (null)
+    Number   -> Prefix (null), Suffix (null), Decimal (.), Thousand (,), PrefixNegative (-), SuffixNegative (null)
+    Format   -> Date (d/m/Y), Time (H:i:s), DateTime (d/m/Y H:i:s)
+]]></Notes>
+<Timezone>
+	<Code><![CDATA[America/Los_Angeles]]></Code>
+	<Description><![CDATA[(UTC-8) Los Angeles, Vancouver, Tijuana]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[America/Denver]]></Code>
+	<Description><![CDATA[(UTC-7) Denver, Phoenix, Calgary, Ciudad Juárez]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[America/Chicago]]></Code>
+	<Description><![CDATA[(UTC-6) Chicago, Mexico City, San José, San Salvador, Winnipeg]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[America/New_York]]></Code>
+	<Description><![CDATA[(UTC-5) New York, Lima, Toronto, Bogotá, Havana, Kingston]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[America/Caracas]]></Code>
+	<Description><![CDATA[(UTC-4) Caracas, Santiago, La Paz, Manaus, Halifax, Santo Domingo]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[America/Sao_Paulo]]></Code>
+	<Description><![CDATA[(UTC-3) Buenos Aires, Montevideo, São Paulo]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[America/Noronha]]></Code>
+	<Description><![CDATA[(UTC-2) Brazil]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Atlantic/Bermuda]]></Code>
+	<Description><![CDATA[(UTC-1) Praia]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Europe/London]]></Code>
+	<Description><![CDATA[(UTC) Accra, Casablanca, Dakar, Dublin, Lisbon, London]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Europe/Rome]]></Code>
+	<Description><![CDATA[(UTC+1) Berlin, Lagos, Madrid, Paris, Rome, Tunis, Vienna, Warsaw]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Europe/Athens]]></Code>
+	<Description><![CDATA[(UTC+2) Athens, Bucharest, Cairo, Helsinki, Jerusalem, Johannesburg, Kiev]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Europe/Moscow]]></Code>
+	<Description><![CDATA[(UTC+3) Istanbul, Moscow, Nairobi, Baghdad, Doha, Minsk, Riyadh]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Asia/Dubai]]></Code>
+	<Description><![CDATA[(UTC+4) Baku, Dubai, Samara, Muscat]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Asia/Karachi]]></Code>
+	<Description><![CDATA[(UTC+5) Karachi, Tashkent, Yekaterinburg]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Asia/Dhaka]]></Code>
+	<Description><![CDATA[(UTC+6) Almaty, Dhaka, Omsk]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Asia/Jakarta]]></Code>
+	<Description><![CDATA[(UTC+7) Jakarta, Bangkok, Krasnoyarsk, Ho Chi Minh City]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Asia/Hong_Kong]]></Code>
+	<Description><![CDATA[(UTC+8) Beijing, Hong Kong, Taipei, Singapore, Kuala Lumpur]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Asia/Tokyo]]></Code>
+	<Description><![CDATA[(UTC+9) Seoul, Tokyo, Ambon, Yakutsk]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Australia/Brisbane]]></Code>
+	<Description><![CDATA[(UTC+10) Port Moresby, Brisbane, Vladivostok]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Australia/Sydney]]></Code>
+	<Description><![CDATA[(UTC+11) Sydney, Nouméa]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Pacific/Auckland]]></Code>
+	<Description><![CDATA[(UTC+12) Auckland, Suva]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Pacific/Pago_Pago]]></Code>
+	<Description><![CDATA[(UTC-11) Pago Pago]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[Pacific/Honolulu]]></Code>
+	<Description><![CDATA[(UTC-10) Papeete, Honolulu]]></Description>
+</Timezone>
+<Timezone>
+	<Code><![CDATA[America/Anchorage]]></Code>
+	<Description><![CDATA[(UTC-9) Anchorage]]></Description>
+</Timezone>
+<Locale>
+	<Country>
+		<Title><![CDATA[Afghanistan]]></Title>
+		<ISO2><![CDATA[AF]]></ISO2>
+		<ISO3><![CDATA[AFG]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[AFN]]></ISO>
+		<Title><![CDATA[Afghanistan Afghani]]></Title>
+		<Prefix><![CDATA[؋]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Aland-eilanden]]></Title>
+		<ISO2><![CDATA[AX]]></ISO2>
+		<ISO3><![CDATA[ALA]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Albanië]]></Title>
+		<ISO2><![CDATA[AL]]></ISO2>
+		<ISO3><![CDATA[ALB]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[ALL]]></ISO>
+		<Title><![CDATA[Albania Lek]]></Title>
+		<Prefix><![CDATA[Lek]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Algerije]]></Title>
+		<ISO2><![CDATA[DZ]]></ISO2>
+		<ISO3><![CDATA[DZA]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Amerikaans Samoa]]></Title>
+		<ISO2><![CDATA[AS]]></ISO2>
+		<ISO3><![CDATA[ASM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Andorra]]></Title>
+		<ISO2><![CDATA[AD]]></ISO2>
+		<ISO3><![CDATA[AND]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Angola]]></Title>
+		<ISO2><![CDATA[AO]]></ISO2>
+		<ISO3><![CDATA[AGO]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Anguilla]]></Title>
+		<ISO2><![CDATA[AI]]></ISO2>
+		<ISO3><![CDATA[AIA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XCD]]></ISO>
+		<Title><![CDATA[East Caribbean Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Antarctica]]></Title>
+		<ISO2><![CDATA[AQ]]></ISO2>
+		<ISO3><![CDATA[ATA]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Antigua en Barbuda]]></Title>
+		<ISO2><![CDATA[AG]]></ISO2>
+		<ISO3><![CDATA[ATG]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XCD]]></ISO>
+		<Title><![CDATA[East Caribbean Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Argentinië]]></Title>
+		<ISO2><![CDATA[AR]]></ISO2>
+		<ISO3><![CDATA[ARG]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[ARS]]></ISO>
+		<Title><![CDATA[Argentina Peso]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Armenië]]></Title>
+		<ISO2><![CDATA[AM]]></ISO2>
+		<ISO3><![CDATA[ARM]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Aruba]]></Title>
+		<ISO2><![CDATA[AW]]></ISO2>
+		<ISO3><![CDATA[ABW]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[AWG]]></ISO>
+		<Title><![CDATA[Aruba Guilder]]></Title>
+		<Prefix><![CDATA[ƒ]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Australië]]></Title>
+		<ISO2><![CDATA[AU]]></ISO2>
+		<ISO3><![CDATA[AUS]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[AUD]]></ISO>
+		<Title><![CDATA[Australia Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[ ]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Number>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[-]]></PrefixNegative>
+	</Number>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Oostenrijk]]></Title>
+		<ISO2><![CDATA[AT]]></ISO2>
+		<ISO3><![CDATA[AUT]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Azerbeidzjan]]></Title>
+		<ISO2><![CDATA[AZ]]></ISO2>
+		<ISO3><![CDATA[AZE]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[AZN]]></ISO>
+		<Title><![CDATA[Azerbaijan New Manat]]></Title>
+		<Prefix><![CDATA[ман]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Bahamas]]></Title>
+		<ISO2><![CDATA[BS]]></ISO2>
+		<ISO3><![CDATA[BHS]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BSD]]></ISO>
+		<Title><![CDATA[Bahamas Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Bahrein]]></Title>
+		<ISO2><![CDATA[BH]]></ISO2>
+		<ISO3><![CDATA[BHR]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Bangladesh]]></Title>
+		<ISO2><![CDATA[BD]]></ISO2>
+		<ISO3><![CDATA[BGD]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Barbados]]></Title>
+		<ISO2><![CDATA[BB]]></ISO2>
+		<ISO3><![CDATA[BRB]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BBD]]></ISO>
+		<Title><![CDATA[Barbados Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Belarus]]></Title>
+		<ISO2><![CDATA[BY]]></ISO2>
+		<ISO3><![CDATA[BLR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BYR]]></ISO>
+		<Title><![CDATA[Belarus Ruble]]></Title>
+		<Prefix><![CDATA[p.]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Belgie]]></Title>
+		<ISO2><![CDATA[BE]]></ISO2>
+		<ISO3><![CDATA[BEL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Belize]]></Title>
+		<ISO2><![CDATA[BZ]]></ISO2>
+		<ISO3><![CDATA[BLZ]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BZD]]></ISO>
+		<Title><![CDATA[Belize Dollar]]></Title>
+		<Prefix><![CDATA[BZ$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Benin]]></Title>
+		<ISO2><![CDATA[BJ]]></ISO2>
+		<ISO3><![CDATA[BEN]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Bermuda]]></Title>
+		<ISO2><![CDATA[BM]]></ISO2>
+		<ISO3><![CDATA[BMU]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BMD]]></ISO>
+		<Title><![CDATA[Bermuda Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Bhutan]]></Title>
+		<ISO2><![CDATA[BT]]></ISO2>
+		<ISO3><![CDATA[BTN]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Bolivia]]></Title>
+		<ISO2><![CDATA[BO]]></ISO2>
+		<ISO3><![CDATA[BOL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BOB]]></ISO>
+		<Title><![CDATA[Bolivia Boliviano]]></Title>
+		<Prefix><![CDATA[$b]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Bosnië-Herzegovina]]></Title>
+		<ISO2><![CDATA[BA]]></ISO2>
+		<ISO3><![CDATA[BIH]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BAM]]></ISO>
+		<Title><![CDATA[Bosnia and Herzegovina Convertible Marka]]></Title>
+		<Prefix><![CDATA[KM]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Botswana]]></Title>
+		<ISO2><![CDATA[BW]]></ISO2>
+		<ISO3><![CDATA[BWA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BWP]]></ISO>
+		<Title><![CDATA[Botswana Pula]]></Title>
+		<Prefix><![CDATA[P]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Bouvet-eiland]]></Title>
+		<ISO2><![CDATA[BV]]></ISO2>
+		<ISO3><![CDATA[BVT]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Brazilië]]></Title>
+		<ISO2><![CDATA[BR]]></ISO2>
+		<ISO3><![CDATA[BRA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BRL]]></ISO>
+		<Title><![CDATA[Brazil Real]]></Title>
+		<Prefix><![CDATA[R$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Brits-Indisch oceaan gebied]]></Title>
+		<ISO2><![CDATA[IO]]></ISO2>
+		<ISO3><![CDATA[IOT]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Brunei Darussalam]]></Title>
+		<ISO2><![CDATA[BN]]></ISO2>
+		<ISO3><![CDATA[BRN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BND]]></ISO>
+		<Title><![CDATA[Brunei Darussalam Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Bulgarije]]></Title>
+		<ISO2><![CDATA[BG]]></ISO2>
+		<ISO3><![CDATA[BGR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[BGN]]></ISO>
+		<Title><![CDATA[Bulgaria Lev]]></Title>
+		<Prefix><![CDATA[лв]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Burkina Faso]]></Title>
+		<ISO2><![CDATA[BF]]></ISO2>
+		<ISO3><![CDATA[BFA]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Burundi]]></Title>
+		<ISO2><![CDATA[BI]]></ISO2>
+		<ISO3><![CDATA[BDI]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Cambodja]]></Title>
+		<ISO2><![CDATA[KH]]></ISO2>
+		<ISO3><![CDATA[KHM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[KHR]]></ISO>
+		<Title><![CDATA[Cambodia Riel]]></Title>
+		<Prefix><![CDATA[៛]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kameroen]]></Title>
+		<ISO2><![CDATA[CM]]></ISO2>
+		<ISO3><![CDATA[CMR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XAF]]></ISO>
+		<Title><![CDATA[Central African CFA franc]]></Title>
+		<Prefix><![CDATA[CFA]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[0]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Canada]]></Title>
+		<ISO2><![CDATA[CA]]></ISO2>
+		<ISO3><![CDATA[CAN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[CAD]]></ISO>
+		<Title><![CDATA[Canada Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Number>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[-]]></PrefixNegative>
+	</Number>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kaapverdië]]></Title>
+		<ISO2><![CDATA[CV]]></ISO2>
+		<ISO3><![CDATA[CPV]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kaaiman Eilanden]]></Title>
+		<ISO2><![CDATA[KY]]></ISO2>
+		<ISO3><![CDATA[CYM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[KYD]]></ISO>
+		<Title><![CDATA[Cayman Islands Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Centraal Afrikaanse Republiek]]></Title>
+		<ISO2><![CDATA[CF]]></ISO2>
+		<ISO3><![CDATA[CAF]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Tsjaad]]></Title>
+		<ISO2><![CDATA[TD]]></ISO2>
+		<ISO3><![CDATA[TCD]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Chili]]></Title>
+		<ISO2><![CDATA[CL]]></ISO2>
+		<ISO3><![CDATA[CHL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[CLP]]></ISO>
+		<Title><![CDATA[Chile Peso]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[China]]></Title>
+		<ISO2><![CDATA[CN]]></ISO2>
+		<ISO3><![CDATA[CHN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[CNY]]></ISO>
+		<Title><![CDATA[China Yuan Renminbi]]></Title>
+		<Prefix><![CDATA[¥]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Number>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[-]]></PrefixNegative>
+	</Number>
+	<Format>
+		<Date><![CDATA[Y-m-d]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[Y-m-d H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kersteiland]]></Title>
+		<ISO2><![CDATA[CX]]></ISO2>
+		<ISO3><![CDATA[CXR]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Cocos (Keeling) eilanden]]></Title>
+		<ISO2><![CDATA[CC]]></ISO2>
+		<ISO3><![CDATA[CCK]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Colombia]]></Title>
+		<ISO2><![CDATA[CO]]></ISO2>
+		<ISO3><![CDATA[COL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[COP]]></ISO>
+		<Title><![CDATA[Colombia Peso]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Comoren]]></Title>
+		<ISO2><![CDATA[KM]]></ISO2>
+		<ISO3><![CDATA[COM]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Congo]]></Title>
+		<ISO2><![CDATA[CG]]></ISO2>
+		<ISO3><![CDATA[COG]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Congo, Democratische Republiek]]></Title>
+		<ISO2><![CDATA[CD]]></ISO2>
+		<ISO3><![CDATA[COD]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Cook Eilanden]]></Title>
+		<ISO2><![CDATA[CK]]></ISO2>
+		<ISO3><![CDATA[COK]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Costa Rica]]></Title>
+		<ISO2><![CDATA[CR]]></ISO2>
+		<ISO3><![CDATA[CRI]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[CRC]]></ISO>
+		<Title><![CDATA[Costa Rica Colon]]></Title>
+		<Prefix><![CDATA[₡]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Ivoorkust]]></Title>
+		<ISO2><![CDATA[CI]]></ISO2>
+		<ISO3><![CDATA[CIV]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kroatië]]></Title>
+		<ISO2><![CDATA[HR]]></ISO2>
+		<ISO3><![CDATA[HRV]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[HRK]]></ISO>
+		<Title><![CDATA[Croatia Kuna]]></Title>
+		<Prefix><![CDATA[kn]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Cuba]]></Title>
+		<ISO2><![CDATA[CU]]></ISO2>
+		<ISO3><![CDATA[CUB]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[CUP]]></ISO>
+		<Title><![CDATA[Cuba Peso]]></Title>
+		<Prefix><![CDATA[₱]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Curacao]]></Title>
+		<ISO2><![CDATA[CW]]></ISO2>
+		<ISO3><![CDATA[CUW]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Cyprus]]></Title>
+		<ISO2><![CDATA[CY]]></ISO2>
+		<ISO3><![CDATA[CYP]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Tsjechische Republiek]]></Title>
+		<ISO2><![CDATA[CZ]]></ISO2>
+		<ISO3><![CDATA[CZE]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[CZK]]></ISO>
+		<Title><![CDATA[Czech Republic Koruna]]></Title>
+		<Prefix><![CDATA[Kč]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Denemarken]]></Title>
+		<ISO2><![CDATA[DK]]></ISO2>
+		<ISO3><![CDATA[DNK]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[DKK]]></ISO>
+		<Title><![CDATA[Denmark Krone]]></Title>
+		<Prefix><![CDATA[kr]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Djibouti]]></Title>
+		<ISO2><![CDATA[DJ]]></ISO2>
+		<ISO3><![CDATA[DJI]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Dominica]]></Title>
+		<ISO2><![CDATA[DM]]></ISO2>
+		<ISO3><![CDATA[DMA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XCD]]></ISO>
+		<Title><![CDATA[East Caribbean Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Dominicaanse Republiek]]></Title>
+		<ISO2><![CDATA[DO]]></ISO2>
+		<ISO3><![CDATA[DOM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[DOP]]></ISO>
+		<Title><![CDATA[Dominican Republic Peso]]></Title>
+		<Prefix><![CDATA[RD$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Oost Timor]]></Title>
+		<ISO2><![CDATA[TP]]></ISO2>
+		<ISO3><![CDATA[TMP]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Ecuador]]></Title>
+		<ISO2><![CDATA[EC]]></ISO2>
+		<ISO3><![CDATA[ECU]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Egypte]]></Title>
+		<ISO2><![CDATA[EG]]></ISO2>
+		<ISO3><![CDATA[EGY]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EGP]]></ISO>
+		<Title><![CDATA[Egypt Pound]]></Title>
+		<Prefix><![CDATA[£]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[El Salvador]]></Title>
+		<ISO2><![CDATA[SV]]></ISO2>
+		<ISO3><![CDATA[SLV]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SVC]]></ISO>
+		<Title><![CDATA[El Salvador Colon]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Equatoriaal-Guinea]]></Title>
+		<ISO2><![CDATA[GQ]]></ISO2>
+		<ISO3><![CDATA[GNQ]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Eritrea]]></Title>
+		<ISO2><![CDATA[ER]]></ISO2>
+		<ISO3><![CDATA[ERI]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Estland]]></Title>
+		<ISO2><![CDATA[EE]]></ISO2>
+		<ISO3><![CDATA[EST]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Ethiopië]]></Title>
+		<ISO2><![CDATA[ET]]></ISO2>
+		<ISO3><![CDATA[ETH]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Falklandeilanden (Malvinas)]]></Title>
+		<ISO2><![CDATA[FK]]></ISO2>
+		<ISO3><![CDATA[FLK]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[FKP]]></ISO>
+		<Title><![CDATA[Falkland Islands (Malvinas) Pound]]></Title>
+		<Prefix><![CDATA[£]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Faeröer]]></Title>
+		<ISO2><![CDATA[FO]]></ISO2>
+		<ISO3><![CDATA[FRO]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Fiji]]></Title>
+		<ISO2><![CDATA[FJ]]></ISO2>
+		<ISO3><![CDATA[FJI]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[FJD]]></ISO>
+		<Title><![CDATA[Fiji Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Finland]]></Title>
+		<ISO2><![CDATA[FI]]></ISO2>
+		<ISO3><![CDATA[FIN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Frankrijk]]></Title>
+		<ISO2><![CDATA[FR]]></ISO2>
+		<ISO3><![CDATA[FRA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Frans Metropolitan]]></Title>
+		<ISO2><![CDATA[FX]]></ISO2>
+		<ISO3><![CDATA[FXX]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Frans Guyana]]></Title>
+		<ISO2><![CDATA[GF]]></ISO2>
+		<ISO3><![CDATA[GUF]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Frans-Polynesië]]></Title>
+		<ISO2><![CDATA[PF]]></ISO2>
+		<ISO3><![CDATA[PYF]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Franse zuidelijke gebieden]]></Title>
+		<ISO2><![CDATA[TF]]></ISO2>
+		<ISO3><![CDATA[ATF]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Gabon]]></Title>
+		<ISO2><![CDATA[GA]]></ISO2>
+		<ISO3><![CDATA[GAB]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Gambia]]></Title>
+		<ISO2><![CDATA[GM]]></ISO2>
+		<ISO3><![CDATA[GMB]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Georgië]]></Title>
+		<ISO2><![CDATA[GE]]></ISO2>
+		<ISO3><![CDATA[GEO]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Duitsland]]></Title>
+		<ISO2><![CDATA[DE]]></ISO2>
+		<ISO3><![CDATA[DEU]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Ghana]]></Title>
+		<ISO2><![CDATA[GH]]></ISO2>
+		<ISO3><![CDATA[GHA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[GHC]]></ISO>
+		<Title><![CDATA[Ghana Cedi]]></Title>
+		<Prefix><![CDATA[¢]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Gibraltar]]></Title>
+		<ISO2><![CDATA[GI]]></ISO2>
+		<ISO3><![CDATA[GIB]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[GIP]]></ISO>
+		<Title><![CDATA[Gibraltar Pound]]></Title>
+		<Prefix><![CDATA[£]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Griekenland]]></Title>
+		<ISO2><![CDATA[GR]]></ISO2>
+		<ISO3><![CDATA[GRC]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Groenland]]></Title>
+		<ISO2><![CDATA[GL]]></ISO2>
+		<ISO3><![CDATA[GRL]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Grenada]]></Title>
+		<ISO2><![CDATA[GD]]></ISO2>
+		<ISO3><![CDATA[GRD]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XCD]]></ISO>
+		<Title><![CDATA[East Caribbean Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Guadeloupe]]></Title>
+		<ISO2><![CDATA[GP]]></ISO2>
+		<ISO3><![CDATA[GLP]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Guam]]></Title>
+		<ISO2><![CDATA[GU]]></ISO2>
+		<ISO3><![CDATA[GUM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Guatemala]]></Title>
+		<ISO2><![CDATA[GT]]></ISO2>
+		<ISO3><![CDATA[GTM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[GTQ]]></ISO>
+		<Title><![CDATA[Guatemala Quetzal]]></Title>
+		<Prefix><![CDATA[Q]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Guinea]]></Title>
+		<ISO2><![CDATA[GN]]></ISO2>
+		<ISO3><![CDATA[GIN]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Guinee-Bissau]]></Title>
+		<ISO2><![CDATA[GW]]></ISO2>
+		<ISO3><![CDATA[GNB]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Guyana]]></Title>
+		<ISO2><![CDATA[GY]]></ISO2>
+		<ISO3><![CDATA[GUY]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[GYD]]></ISO>
+		<Title><![CDATA[Guyana Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Haïti]]></Title>
+		<ISO2><![CDATA[HT]]></ISO2>
+		<ISO3><![CDATA[HTI]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Heard en McDonaldeilanden]]></Title>
+		<ISO2><![CDATA[HM]]></ISO2>
+		<ISO3><![CDATA[HMD]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Honduras]]></Title>
+		<ISO2><![CDATA[HN]]></ISO2>
+		<ISO3><![CDATA[HND]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[HNL]]></ISO>
+		<Title><![CDATA[Honduras Lempira]]></Title>
+		<Prefix><![CDATA[L]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Hong Kong]]></Title>
+		<ISO2><![CDATA[HK]]></ISO2>
+		<ISO3><![CDATA[HKG]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[HKD]]></ISO>
+		<Title><![CDATA[Hong Kong Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Hongarije]]></Title>
+		<ISO2><![CDATA[HU]]></ISO2>
+		<ISO3><![CDATA[HUN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[HUF]]></ISO>
+		<Title><![CDATA[Hungary Forint]]></Title>
+		<Prefix><![CDATA[Ft]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[IJsland]]></Title>
+		<ISO2><![CDATA[IS]]></ISO2>
+		<ISO3><![CDATA[ISL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[ISK]]></ISO>
+		<Title><![CDATA[Iceland Krona]]></Title>
+		<Prefix><![CDATA[kr]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[India]]></Title>
+		<ISO2><![CDATA[IN]]></ISO2>
+		<ISO3><![CDATA[IND]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[INR]]></ISO>
+		<Title><![CDATA[India Rupee]]></Title>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[d-m-Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d-m-Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Indonesië]]></Title>
+		<ISO2><![CDATA[ID]]></ISO2>
+		<ISO3><![CDATA[IDN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[IDR]]></ISO>
+		<Title><![CDATA[Indonesia Rupiah]]></Title>
+		<Prefix><![CDATA[Rp]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Iran]]></Title>
+		<ISO2><![CDATA[IR]]></ISO2>
+		<ISO3><![CDATA[IRN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[IRR]]></ISO>
+		<Title><![CDATA[Iran Rial]]></Title>
+		<Prefix><![CDATA[﷼]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Iraq]]></Title>
+		<ISO2><![CDATA[IQ]]></ISO2>
+		<ISO3><![CDATA[IRQ]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Ierland]]></Title>
+		<ISO2><![CDATA[IE]]></ISO2>
+		<ISO3><![CDATA[IRL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[d-m-Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d-m-Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Israel]]></Title>
+		<ISO2><![CDATA[IL]]></ISO2>
+		<ISO3><![CDATA[ISR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[ILS]]></ISO>
+		<Title><![CDATA[Israel Shekel]]></Title>
+		<Prefix><![CDATA[₪]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Italië]]></Title>
+		<ISO2><![CDATA[IT]]></ISO2>
+		<ISO3><![CDATA[ITA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Jamaica]]></Title>
+		<ISO2><![CDATA[JM]]></ISO2>
+		<ISO3><![CDATA[JAM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[JMD]]></ISO>
+		<Title><![CDATA[Jamaica Dollar]]></Title>
+		<Prefix><![CDATA[J$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Japan]]></Title>
+		<ISO2><![CDATA[JP]]></ISO2>
+		<ISO3><![CDATA[JPN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[JPY]]></ISO>
+		<Title><![CDATA[Japan Yen]]></Title>
+		<Prefix><![CDATA[¥]]></Prefix>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[0]]></Precision>
+	</Currency>
+	<Number>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[-]]></PrefixNegative>
+	</Number>
+	<Format>
+		<Date><![CDATA[Y年m月d日]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[Y年m月d日 H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Jordanë]]></Title>
+		<ISO2><![CDATA[JO]]></ISO2>
+		<ISO3><![CDATA[JOR]]></ISO3>
+	</Country>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kazachstan]]></Title>
+		<ISO2><![CDATA[KZ]]></ISO2>
+		<ISO3><![CDATA[KAZ]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[KZT]]></ISO>
+		<Title><![CDATA[Kazakhstan Tenge]]></Title>
+		<Prefix><![CDATA[лв]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kenia]]></Title>
+		<ISO2><![CDATA[KE]]></ISO2>
+		<ISO3><![CDATA[KEN]]></ISO3>
+	</Country>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kiribati]]></Title>
+		<ISO2><![CDATA[KI]]></ISO2>
+		<ISO3><![CDATA[KIR]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Korea, Democratische Volksrepubliek]]></Title>
+		<ISO2><![CDATA[KP]]></ISO2>
+		<ISO3><![CDATA[PRK]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[KPW]]></ISO>
+		<Title><![CDATA[Korea (North) Won]]></Title>
+		<Prefix><![CDATA[₩]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Korea, republiek van]]></Title>
+		<ISO2><![CDATA[KR]]></ISO2>
+		<ISO3><![CDATA[KOR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[KPW]]></ISO>
+		<Title><![CDATA[Korea (South) Won]]></Title>
+		<Prefix><![CDATA[₩]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[Y/m/d]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[Y/m/d H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Koeweit]]></Title>
+		<ISO2><![CDATA[KW]]></ISO2>
+		<ISO3><![CDATA[KWT]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kirgizië]]></Title>
+		<ISO2><![CDATA[KG]]></ISO2>
+		<ISO3><![CDATA[KGZ]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[KGS]]></ISO>
+		<Title><![CDATA[Kyrgyzstan Som]]></Title>
+		<Prefix><![CDATA[лв]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Lao Democratische Volksrepubliek]]></Title>
+		<ISO2><![CDATA[LA]]></ISO2>
+		<ISO3><![CDATA[LAO]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[LAK]]></ISO>
+		<Title><![CDATA[Laos Kip]]></Title>
+		<Prefix><![CDATA[₭]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Letland]]></Title>
+		<ISO2><![CDATA[LV]]></ISO2>
+		<ISO3><![CDATA[LVA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Libanon]]></Title>
+		<ISO2><![CDATA[LB]]></ISO2>
+		<ISO3><![CDATA[LBN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[LBP]]></ISO>
+		<Title><![CDATA[Lebanon Pound]]></Title>
+		<Prefix><![CDATA[£]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Lesotho]]></Title>
+		<ISO2><![CDATA[LS]]></ISO2>
+		<ISO3><![CDATA[LSO]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Liberia]]></Title>
+		<ISO2><![CDATA[LR]]></ISO2>
+		<ISO3><![CDATA[LBR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[LRD]]></ISO>
+		<Title><![CDATA[Liberia Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Libië]]></Title>
+		<ISO2><![CDATA[LY]]></ISO2>
+		<ISO3><![CDATA[LBY]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Liechtenstein]]></Title>
+		<ISO2><![CDATA[LI]]></ISO2>
+		<ISO3><![CDATA[LIE]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Litouwen]]></Title>
+		<ISO2><![CDATA[LT]]></ISO2>
+		<ISO3><![CDATA[LTU]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[LTL]]></ISO>
+		<Title><![CDATA[Lithuania Litas]]></Title>
+		<Prefix><![CDATA[Lt]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[Y-m-d]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[Y-m-d H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Luxemburg]]></Title>
+		<ISO2><![CDATA[LU]]></ISO2>
+		<ISO3><![CDATA[LUX]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Macau]]></Title>
+		<ISO2><![CDATA[MO]]></ISO2>
+		<ISO3><![CDATA[MAC]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Macedonië, de voormalige Joegoslavische Republiek]]></Title>
+		<ISO2><![CDATA[MK]]></ISO2>
+		<ISO3><![CDATA[MKD]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[MKD]]></ISO>
+		<Title><![CDATA[Macedonia Denar]]></Title>
+		<Prefix><![CDATA[ден]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[d.m.Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d.m.Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Madagascar]]></Title>
+		<ISO2><![CDATA[MG]]></ISO2>
+		<ISO3><![CDATA[MDG]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Malawi]]></Title>
+		<ISO2><![CDATA[MW]]></ISO2>
+		<ISO3><![CDATA[MWI]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Maleisië]]></Title>
+		<ISO2><![CDATA[MY]]></ISO2>
+		<ISO3><![CDATA[MYS]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[MYR]]></ISO>
+		<Title><![CDATA[Malaysia Ringgit]]></Title>
+		<Prefix><![CDATA[RM]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Maldiven]]></Title>
+		<ISO2><![CDATA[MV]]></ISO2>
+		<ISO3><![CDATA[MDV]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Mali]]></Title>
+		<ISO2><![CDATA[ML]]></ISO2>
+		<ISO3><![CDATA[MLI]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Malta]]></Title>
+		<ISO2><![CDATA[MT]]></ISO2>
+		<ISO3><![CDATA[MLT]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Marshall eilanden]]></Title>
+		<ISO2><![CDATA[MH]]></ISO2>
+		<ISO3><![CDATA[MHL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Martinique]]></Title>
+		<ISO2><![CDATA[MQ]]></ISO2>
+		<ISO3><![CDATA[MTQ]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Mauritanië]]></Title>
+		<ISO2><![CDATA[MR]]></ISO2>
+		<ISO3><![CDATA[MRT]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Mauritius]]></Title>
+		<ISO2><![CDATA[MU]]></ISO2>
+		<ISO3><![CDATA[MUS]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[MUR]]></ISO>
+		<Title><![CDATA[Mauritius Rupee]]></Title>
+		<Prefix><![CDATA[₨]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Mayotte]]></Title>
+		<ISO2><![CDATA[YT]]></ISO2>
+		<ISO3><![CDATA[MYT]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Mexico]]></Title>
+		<ISO2><![CDATA[MX]]></ISO2>
+		<ISO3><![CDATA[MEX]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[MXN]]></ISO>
+		<Title><![CDATA[Mexico Peso]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Number>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[-]]></PrefixNegative>
+	</Number>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Micronesië, Federale Staten van]]></Title>
+		<ISO2><![CDATA[FM]]></ISO2>
+		<ISO3><![CDATA[FSM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Moldavië, Republiek]]></Title>
+		<ISO2><![CDATA[MD]]></ISO2>
+		<ISO3><![CDATA[MDA]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Monaco]]></Title>
+		<ISO2><![CDATA[MC]]></ISO2>
+		<ISO3><![CDATA[MCO]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[d/m/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d/m/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Mogolië]]></Title>
+		<ISO2><![CDATA[MN]]></ISO2>
+		<ISO3><![CDATA[MNG]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[MNT]]></ISO>
+		<Title><![CDATA[Mongolia Tughrik]]></Title>
+		<Prefix><![CDATA[₮]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Montenegro]]></Title>
+		<ISO2><![CDATA[ME]]></ISO2>
+		<ISO3><![CDATA[MNE]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Montserrat]]></Title>
+		<ISO2><![CDATA[MS]]></ISO2>
+		<ISO3><![CDATA[MSR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XCD]]></ISO>
+		<Title><![CDATA[East Caribbean Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Marokko]]></Title>
+		<ISO2><![CDATA[MA]]></ISO2>
+		<ISO3><![CDATA[MAR]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Mozambique]]></Title>
+		<ISO2><![CDATA[MZ]]></ISO2>
+		<ISO3><![CDATA[MOZ]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[MZN]]></ISO>
+		<Title><![CDATA[Mozambique Metical]]></Title>
+		<Prefix><![CDATA[MT]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Myanmar]]></Title>
+		<ISO2><![CDATA[MM]]></ISO2>
+		<ISO3><![CDATA[MMR]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Namibië]]></Title>
+		<ISO2><![CDATA[NA]]></ISO2>
+		<ISO3><![CDATA[NAM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[NAD]]></ISO>
+		<Title><![CDATA[Namibia Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Nauru]]></Title>
+		<ISO2><![CDATA[NR]]></ISO2>
+		<ISO3><![CDATA[NRU]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Nepal]]></Title>
+		<ISO2><![CDATA[NP]]></ISO2>
+		<ISO3><![CDATA[NPL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[NPR]]></ISO>
+		<Title><![CDATA[Nepal Rupee]]></Title>
+		<Prefix><![CDATA[₨]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Nederland]]></Title>
+		<ISO2><![CDATA[NL]]></ISO2>
+		<ISO3><![CDATA[NLD]]></ISO3>
+		<Region>
+			<Code><![CDATA[DR]]></Code>
+			<Title><![CDATA[Drenthe]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[FL]]></Code>
+			<Title><![CDATA[Flevoland]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[FR]]></Code>
+			<Title><![CDATA[Friesland]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[GE]]></Code>
+			<Title><![CDATA[Gelderland]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[GR]]></Code>
+			<Title><![CDATA[Groningen]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[LI]]></Code>
+			<Title><![CDATA[Limburg]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[NB]]></Code>
+			<Title><![CDATA[Noord-Brabant]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[NH]]></Code>
+			<Title><![CDATA[Noord-Holland]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[OV]]></Code>
+			<Title><![CDATA[Overijssel]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[UT]]></Code>
+			<Title><![CDATA[Utrecht]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[ZE]]></Code>
+			<Title><![CDATA[Zeeland]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[ZH]]></Code>
+			<Title><![CDATA[Zuid-Holland]]></Title>
+		</Region>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Nederlandse Antillen]]></Title>
+		<ISO2><![CDATA[AN]]></ISO2>
+		<ISO3><![CDATA[ANT]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Nieuw-Caledonië]]></Title>
+		<ISO2><![CDATA[NC]]></ISO2>
+		<ISO3><![CDATA[NCL]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Nieuw-Zeeland]]></Title>
+		<ISO2><![CDATA[NZ]]></ISO2>
+		<ISO3><![CDATA[NZL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[NZD]]></ISO>
+		<Title><![CDATA[New Zealand Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Nicaragua]]></Title>
+		<ISO2><![CDATA[NI]]></ISO2>
+		<ISO3><![CDATA[NIC]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[NIO]]></ISO>
+		<Title><![CDATA[Nicaragua Cordoba]]></Title>
+		<Prefix><![CDATA[C$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Niger]]></Title>
+		<ISO2><![CDATA[NE]]></ISO2>
+		<ISO3><![CDATA[NER]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XOF]]></ISO>
+		<Title><![CDATA[West African CFA franc]]></Title>
+		<Prefix><![CDATA[CFA]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[0]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Nigeria]]></Title>
+		<ISO2><![CDATA[NG]]></ISO2>
+		<ISO3><![CDATA[NGA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[NGN]]></ISO>
+		<Title><![CDATA[Nigeria Naira]]></Title>
+		<Prefix><![CDATA[₦]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Niue]]></Title>
+		<ISO2><![CDATA[NU]]></ISO2>
+		<ISO3><![CDATA[NIU]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Norfolkeiland]]></Title>
+		<ISO2><![CDATA[NF]]></ISO2>
+		<ISO3><![CDATA[NFK]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Noordelijke Mariana eilanden]]></Title>
+		<ISO2><![CDATA[MP]]></ISO2>
+		<ISO3><![CDATA[MNP]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Noorwegen]]></Title>
+		<ISO2><![CDATA[NO]]></ISO2>
+		<ISO3><![CDATA[NOR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[NOK]]></ISO>
+		<Title><![CDATA[Norway Krone]]></Title>
+		<Prefix><![CDATA[kr]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Oman]]></Title>
+		<ISO2><![CDATA[OM]]></ISO2>
+		<ISO3><![CDATA[OMN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[OMR]]></ISO>
+		<Title><![CDATA[Oman Rial]]></Title>
+		<Prefix><![CDATA[﷼]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Pakistan]]></Title>
+		<ISO2><![CDATA[PK]]></ISO2>
+		<ISO3><![CDATA[PAK]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[PKR]]></ISO>
+		<Title><![CDATA[Pakistan Rupee]]></Title>
+		<Prefix><![CDATA[₨]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Palau]]></Title>
+		<ISO2><![CDATA[PW]]></ISO2>
+		<ISO3><![CDATA[PLW]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Palestina]]></Title>
+		<ISO2><![CDATA[PS]]></ISO2>
+		<ISO3><![CDATA[PSE]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Panama]]></Title>
+		<ISO2><![CDATA[PA]]></ISO2>
+		<ISO3><![CDATA[PAN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[PAB]]></ISO>
+		<Title><![CDATA[Panama Balboa]]></Title>
+		<Prefix><![CDATA[B/.]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Papoea-Nieuw-Guinea]]></Title>
+		<ISO2><![CDATA[PG]]></ISO2>
+		<ISO3><![CDATA[PNG]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Paraguay]]></Title>
+		<ISO2><![CDATA[PY]]></ISO2>
+		<ISO3><![CDATA[PRY]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[PYG]]></ISO>
+		<Title><![CDATA[Paraguay Guarani]]></Title>
+		<Prefix><![CDATA[Gs]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Peru]]></Title>
+		<ISO2><![CDATA[PE]]></ISO2>
+		<ISO3><![CDATA[PER]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[PEN]]></ISO>
+		<Title><![CDATA[Peru Nuevo Sol]]></Title>
+		<Prefix><![CDATA[S/.]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Filippijnen]]></Title>
+		<ISO2><![CDATA[PH]]></ISO2>
+		<ISO3><![CDATA[PHL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[PHP]]></ISO>
+		<Title><![CDATA[Philippines Peso]]></Title>
+		<Prefix><![CDATA[₱]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Pitcairn]]></Title>
+		<ISO2><![CDATA[PN]]></ISO2>
+		<ISO3><![CDATA[PCN]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Polen]]></Title>
+		<ISO2><![CDATA[PL]]></ISO2>
+		<ISO3><![CDATA[POL]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[PLN]]></ISO>
+		<Title><![CDATA[Poland Zloty]]></Title>
+		<Prefix><![CDATA[zł]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Portugal]]></Title>
+		<ISO2><![CDATA[PT]]></ISO2>
+		<ISO3><![CDATA[PRT]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Puerto Rico]]></Title>
+		<ISO2><![CDATA[PR]]></ISO2>
+		<ISO3><![CDATA[PRI]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Qatar]]></Title>
+		<ISO2><![CDATA[QA]]></ISO2>
+		<ISO3><![CDATA[QAT]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[QAR]]></ISO>
+		<Title><![CDATA[Qatar Riyal]]></Title>
+		<Prefix><![CDATA[﷼]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Reunion]]></Title>
+		<ISO2><![CDATA[RE]]></ISO2>
+		<ISO3><![CDATA[REU]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Roemenië]]></Title>
+		<ISO2><![CDATA[RO]]></ISO2>
+		<ISO3><![CDATA[ROM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[RON]]></ISO>
+		<Title><![CDATA[Romania New Leu]]></Title>
+		<Prefix><![CDATA[lei]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Rusland]]></Title>
+		<ISO2><![CDATA[RU]]></ISO2>
+		<ISO3><![CDATA[RUS]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[RUB]]></ISO>
+		<Title><![CDATA[Russia Ruble]]></Title>
+		<Prefix><![CDATA[руб]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+	<Format>
+		<Date><![CDATA[d.m.Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[d.m.Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Rwanda]]></Title>
+		<ISO2><![CDATA[RW]]></ISO2>
+		<ISO3><![CDATA[RWA]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Saint Kitts and Nevis]]></Title>
+		<ISO2><![CDATA[KN]]></ISO2>
+		<ISO3><![CDATA[KNA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XCD]]></ISO>
+		<Title><![CDATA[East Caribbean Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Saint Lucia]]></Title>
+		<ISO2><![CDATA[LC]]></ISO2>
+		<ISO3><![CDATA[LCA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XCD]]></ISO>
+		<Title><![CDATA[East Caribbean Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Saint Vincent en de Grenadines]]></Title>
+		<ISO2><![CDATA[VC]]></ISO2>
+		<ISO3><![CDATA[VCT]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XCD]]></ISO>
+		<Title><![CDATA[East Caribbean Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Samoa]]></Title>
+		<ISO2><![CDATA[WS]]></ISO2>
+		<ISO3><![CDATA[WSM]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[San Marino]]></Title>
+		<ISO2><![CDATA[SM]]></ISO2>
+		<ISO3><![CDATA[SMR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Sao Tome and Principe]]></Title>
+		<ISO2><![CDATA[ST]]></ISO2>
+		<ISO3><![CDATA[STP]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Saoedi-Arabië]]></Title>
+		<ISO2><![CDATA[SA]]></ISO2>
+		<ISO3><![CDATA[SAU]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SAR]]></ISO>
+		<Title><![CDATA[Saudi Arabia Riyal]]></Title>
+		<Prefix><![CDATA[﷼]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Senegal]]></Title>
+		<ISO2><![CDATA[SN]]></ISO2>
+		<ISO3><![CDATA[SEN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[XOF]]></ISO>
+		<Title><![CDATA[West African CFA franc]]></Title>
+		<Prefix><![CDATA[CFA]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[0]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Servië]]></Title>
+		<ISO2><![CDATA[RS]]></ISO2>
+		<ISO3><![CDATA[SRB]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[RSD]]></ISO>
+		<Title><![CDATA[Serbia Dinar]]></Title>
+		<Prefix><![CDATA[Дин.]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Seychellen]]></Title>
+		<ISO2><![CDATA[SC]]></ISO2>
+		<ISO3><![CDATA[SYC]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SCR]]></ISO>
+		<Title><![CDATA[Seychelles Rupee]]></Title>
+		<Prefix><![CDATA[₨]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Sierra Leone]]></Title>
+		<ISO2><![CDATA[SL]]></ISO2>
+		<ISO3><![CDATA[SLE]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Singapore]]></Title>
+		<ISO2><![CDATA[SG]]></ISO2>
+		<ISO3><![CDATA[SGP]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SGD]]></ISO>
+		<Title><![CDATA[Singapore Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Slowakije (Slowaakse Republiek)]]></Title>
+		<ISO2><![CDATA[SK]]></ISO2>
+		<ISO3><![CDATA[SVK]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Slovenië]]></Title>
+		<ISO2><![CDATA[SI]]></ISO2>
+		<ISO3><![CDATA[SVN]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Solomon eilanden]]></Title>
+		<ISO2><![CDATA[SB]]></ISO2>
+		<ISO3><![CDATA[SLB]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SBD]]></ISO>
+		<Title><![CDATA[Solomon Islands Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Somalië]]></Title>
+		<ISO2><![CDATA[SO]]></ISO2>
+		<ISO3><![CDATA[SOM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SOS]]></ISO>
+		<Title><![CDATA[Somalia Shilling]]></Title>
+		<Prefix><![CDATA[S]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Zuid Afrika]]></Title>
+		<ISO2><![CDATA[ZA]]></ISO2>
+		<ISO3><![CDATA[ZAF]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[ZAR]]></ISO>
+		<Title><![CDATA[South Africa Rand]]></Title>
+		<Prefix><![CDATA[R]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Zuid-Georgië en de Zuidelijke Sandwicheilanden]]></Title>
+		<ISO2><![CDATA[GS]]></ISO2>
+		<ISO3><![CDATA[SGS]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Spanje]]></Title>
+		<ISO2><![CDATA[ES]]></ISO2>
+		<ISO3><![CDATA[ESP]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[EUR]]></ISO>
+		<Title><![CDATA[Euro Member Countries]]></Title>
+		<Prefix><![CDATA[€]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Sri Lanka]]></Title>
+		<ISO2><![CDATA[LK]]></ISO2>
+		<ISO3><![CDATA[LKA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[LKR]]></ISO>
+		<Title><![CDATA[Sri Lanka Rupee]]></Title>
+		<Prefix><![CDATA[₨]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[St. Helena]]></Title>
+		<ISO2><![CDATA[SH]]></ISO2>
+		<ISO3><![CDATA[SHN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SHP]]></ISO>
+		<Title><![CDATA[Saint Helena Pound]]></Title>
+		<Prefix><![CDATA[£]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Sint Maarten (Nederlands deel)]]></Title>
+		<ISO2><![CDATA[SX]]></ISO2>
+		<ISO3><![CDATA[SXM]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Saint Martin (Frans deel)]]></Title>
+		<ISO2><![CDATA[MF]]></ISO2>
+		<ISO3><![CDATA[MAF]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[St. Pierre en Miquelon]]></Title>
+		<ISO2><![CDATA[PM]]></ISO2>
+		<ISO3><![CDATA[SPM]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Soedan]]></Title>
+		<ISO2><![CDATA[SD]]></ISO2>
+		<ISO3><![CDATA[SDN]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Suriname]]></Title>
+		<ISO2><![CDATA[SR]]></ISO2>
+		<ISO3><![CDATA[SUR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SRD]]></ISO>
+		<Title><![CDATA[Suriname Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Svalbard en Jan Mayen-eilanden]]></Title>
+		<ISO2><![CDATA[SJ]]></ISO2>
+		<ISO3><![CDATA[SJM]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Swaziland]]></Title>
+		<ISO2><![CDATA[SZ]]></ISO2>
+		<ISO3><![CDATA[SWZ]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Zweden]]></Title>
+		<ISO2><![CDATA[SE]]></ISO2>
+		<ISO3><![CDATA[SWE]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SEK]]></ISO>
+		<Title><![CDATA[Sweden Krona]]></Title>
+		<Prefix><![CDATA[kr]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Zwitserland]]></Title>
+		<ISO2><![CDATA[CH]]></ISO2>
+		<ISO3><![CDATA[CHE]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[CHF]]></ISO>
+		<Title><![CDATA[Switzerland Franc]]></Title>
+		<Prefix><![CDATA[CHF]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Syrische Arabische Republiek]]></Title>
+		<ISO2><![CDATA[SY]]></ISO2>
+		<ISO3><![CDATA[SYR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[SYP]]></ISO>
+		<Title><![CDATA[Syria Pound]]></Title>
+		<Prefix><![CDATA[£]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Taiwan]]></Title>
+		<ISO2><![CDATA[TW]]></ISO2>
+		<ISO3><![CDATA[TWN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[TWD]]></ISO>
+		<Title><![CDATA[Taiwan New Dollar]]></Title>
+		<Prefix><![CDATA[NT$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Tajikistan]]></Title>
+		<ISO2><![CDATA[TJ]]></ISO2>
+		<ISO3><![CDATA[TJK]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Tanzania, Verenigde Republiek]]></Title>
+		<ISO2><![CDATA[TZ]]></ISO2>
+		<ISO3><![CDATA[TZA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[TZS]]></ISO>
+		<Title><![CDATA[Tanzanian shilling]]></Title>
+		<Prefix><![CDATA[TSh]]></Prefix>
+		<SymbolDecimal><![CDATA[/]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Thailand]]></Title>
+		<ISO2><![CDATA[TH]]></ISO2>
+		<ISO3><![CDATA[THA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[THB]]></ISO>
+		<Title><![CDATA[Thailand Baht]]></Title>
+		<Prefix><![CDATA[฿]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Togo]]></Title>
+		<ISO2><![CDATA[TG]]></ISO2>
+		<ISO3><![CDATA[TGO]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Tokelau]]></Title>
+		<ISO2><![CDATA[TK]]></ISO2>
+		<ISO3><![CDATA[TKL]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Tonga]]></Title>
+		<ISO2><![CDATA[TO]]></ISO2>
+		<ISO3><![CDATA[TON]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Trinidad en Tobago]]></Title>
+		<ISO2><![CDATA[TT]]></ISO2>
+		<ISO3><![CDATA[TTO]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[TTD]]></ISO>
+		<Title><![CDATA[Trinidad and Tobago Dollar]]></Title>
+		<Prefix><![CDATA[TT$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Tunesië]]></Title>
+		<ISO2><![CDATA[TN]]></ISO2>
+		<ISO3><![CDATA[TUN]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Turkije]]></Title>
+		<ISO2><![CDATA[TR]]></ISO2>
+		<ISO3><![CDATA[TUR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[TRL]]></ISO>
+		<Title><![CDATA[Turkey Lira]]></Title>
+		<Prefix><![CDATA[₤]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Turkmenistan]]></Title>
+		<ISO2><![CDATA[TM]]></ISO2>
+		<ISO3><![CDATA[TKM]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Turks- en Caicoseilanden]]></Title>
+		<ISO2><![CDATA[TC]]></ISO2>
+		<ISO3><![CDATA[TCA]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Tuvalu]]></Title>
+		<ISO2><![CDATA[TV]]></ISO2>
+		<ISO3><![CDATA[TUV]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[TVD]]></ISO>
+		<Title><![CDATA[Tuvalu Dollar]]></Title>
+		<Prefix><![CDATA[$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Oeganda]]></Title>
+		<ISO2><![CDATA[UG]]></ISO2>
+		<ISO3><![CDATA[UGA]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Oekraïne]]></Title>
+		<ISO2><![CDATA[UA]]></ISO2>
+		<ISO3><![CDATA[UKR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[UAH]]></ISO>
+		<Title><![CDATA[Ukraine Hryvnia]]></Title>
+		<Prefix><![CDATA[₴]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Verenigde Arabische Emiraten]]></Title>
+		<ISO2><![CDATA[AE]]></ISO2>
+		<ISO3><![CDATA[ARE]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[AED]]></ISO>
+		<Title><![CDATA[Emirati Dirham]]></Title>
+		<Suffix><![CDATA[د.إ]]></Suffix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Verenigd Koningkrijk]]></Title>
+		<ISO2><![CDATA[GB]]></ISO2>
+		<ISO3><![CDATA[GBR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[GBP]]></ISO>
+		<Title><![CDATA[United Kingdom Pound]]></Title>
+		<Prefix><![CDATA[£]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Verenigde Staten]]></Title>
+		<ISO2><![CDATA[US]]></ISO2>
+		<ISO3><![CDATA[USA]]></ISO3>
+		<Region>
+			<Code><![CDATA[AL]]></Code>
+			<Title><![CDATA[Alabama]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[AK]]></Code>
+			<Title><![CDATA[Alaska]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[AZ]]></Code>
+			<Title><![CDATA[Arizona]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[AR]]></Code>
+			<Title><![CDATA[Arkansas]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[CA]]></Code>
+			<Title><![CDATA[California]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[CO]]></Code>
+			<Title><![CDATA[Colorado]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[CT]]></Code>
+			<Title><![CDATA[Connecticut]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[DE]]></Code>
+			<Title><![CDATA[Delaware]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[DC]]></Code>
+			<Title><![CDATA[District of Columbia]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[FL]]></Code>
+			<Title><![CDATA[Florida]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[GA]]></Code>
+			<Title><![CDATA[Georgia]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[HI]]></Code>
+			<Title><![CDATA[Hawaii]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[ID]]></Code>
+			<Title><![CDATA[Idaho]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[IL]]></Code>
+			<Title><![CDATA[Illinois]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[IN]]></Code>
+			<Title><![CDATA[Indiana]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[IA]]></Code>
+			<Title><![CDATA[Iowa]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[KS]]></Code>
+			<Title><![CDATA[Kansas]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[KY]]></Code>
+			<Title><![CDATA[Kentucky]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[LA]]></Code>
+			<Title><![CDATA[Louisiana]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[ME]]></Code>
+			<Title><![CDATA[Maine]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[MD]]></Code>
+			<Title><![CDATA[Maryland]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[MA]]></Code>
+			<Title><![CDATA[Massachusetts]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[MI]]></Code>
+			<Title><![CDATA[Michigan]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[MN]]></Code>
+			<Title><![CDATA[Minnesota]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[MS]]></Code>
+			<Title><![CDATA[Mississippi]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[MO]]></Code>
+			<Title><![CDATA[Missouri]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[MT]]></Code>
+			<Title><![CDATA[Montana]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[NE]]></Code>
+			<Title><![CDATA[Nebraska]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[NV]]></Code>
+			<Title><![CDATA[Nevada]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[NH]]></Code>
+			<Title><![CDATA[New Hampshire]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[NJ]]></Code>
+			<Title><![CDATA[New Jersey]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[NM]]></Code>
+			<Title><![CDATA[New Mexico]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[NY]]></Code>
+			<Title><![CDATA[New York]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[NC]]></Code>
+			<Title><![CDATA[North Carolina]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[ND]]></Code>
+			<Title><![CDATA[North Dakota]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[OH]]></Code>
+			<Title><![CDATA[Ohio]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[OK]]></Code>
+			<Title><![CDATA[Oklahoma]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[OR]]></Code>
+			<Title><![CDATA[Oregon]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[PA]]></Code>
+			<Title><![CDATA[Pennsylvania]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[RI]]></Code>
+			<Title><![CDATA[Rhode Island]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[SC]]></Code>
+			<Title><![CDATA[South Carolina]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[SD]]></Code>
+			<Title><![CDATA[South Dakota]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[TN]]></Code>
+			<Title><![CDATA[Tennessee]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[TX]]></Code>
+			<Title><![CDATA[Texas]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[UT]]></Code>
+			<Title><![CDATA[Utah]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[VT]]></Code>
+			<Title><![CDATA[Vermont]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[VA]]></Code>
+			<Title><![CDATA[Virginia]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[WA]]></Code>
+			<Title><![CDATA[Washington]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[WV]]></Code>
+			<Title><![CDATA[West Virginia]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[WI]]></Code>
+			<Title><![CDATA[Wisconsin]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[WY]]></Code>
+			<Title><![CDATA[Wyoming]]></Title>
+		</Region>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+	<Number>
+		<Precision><![CDATA[2]]></Precision>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[-]]></PrefixNegative>
+	</Number>
+	<Format>
+		<Date><![CDATA[m/d/Y]]></Date>
+		<Time><![CDATA[H:i:s]]></Time>
+		<DateTime><![CDATA[m/d/Y H:i:s]]></DateTime>
+	</Format>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Kleine afgelegen eilanden van de Verenigde Staten]]></Title>
+		<ISO2><![CDATA[UM]]></ISO2>
+		<ISO3><![CDATA[UMI]]></ISO3>
+		<Region>
+			<Code><![CDATA[AF]]></Code>
+			<Title><![CDATA[Armed Forces Africa]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[AA]]></Code>
+			<Title><![CDATA[Armed Forces Americas]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[AC]]></Code>
+			<Title><![CDATA[Armed Forces Canada]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[AE]]></Code>
+			<Title><![CDATA[Armed Forces Europe]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[AM]]></Code>
+			<Title><![CDATA[Armed Forces Middle East]]></Title>
+		</Region>
+		<Region>
+			<Code><![CDATA[AP]]></Code>
+			<Title><![CDATA[Armed Forces Pacific]]></Title>
+		</Region>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Uruguay]]></Title>
+		<ISO2><![CDATA[UY]]></ISO2>
+		<ISO3><![CDATA[URY]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[UYU]]></ISO>
+		<Title><![CDATA[Uruguay Peso]]></Title>
+		<Prefix><![CDATA[$U]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Oezbekistan]]></Title>
+		<ISO2><![CDATA[UZ]]></ISO2>
+		<ISO3><![CDATA[UZB]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[UZS]]></ISO>
+		<Title><![CDATA[Uzbekistan Som]]></Title>
+		<Prefix><![CDATA[лв]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Vanuatu]]></Title>
+		<ISO2><![CDATA[VU]]></ISO2>
+		<ISO3><![CDATA[VUT]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Vaticaanstad (Heilige Stoel)]]></Title>
+		<ISO2><![CDATA[VA]]></ISO2>
+		<ISO3><![CDATA[VAT]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Venezuela]]></Title>
+		<ISO2><![CDATA[VE]]></ISO2>
+		<ISO3><![CDATA[VEN]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[VEF]]></ISO>
+		<Title><![CDATA[Venezuela Bolivar]]></Title>
+		<Prefix><![CDATA[Bs]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Vietnam]]></Title>
+		<ISO2><![CDATA[VN]]></ISO2>
+		<ISO3><![CDATA[VNM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[VND]]></ISO>
+		<Title><![CDATA[Viet Nam Dong]]></Title>
+		<Prefix><![CDATA[₫]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Maagdeneilanden (Brits)]]></Title>
+		<ISO2><![CDATA[VG]]></ISO2>
+		<ISO3><![CDATA[VGB]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Maagdeneilanden (VS)]]></Title>
+		<ISO2><![CDATA[VI]]></ISO2>
+		<ISO3><![CDATA[VIR]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[USD]]></ISO>
+		<Title><![CDATA[United States Dollar]]></Title>
+		<Precision><![CDATA[2]]></Precision>
+		<Prefix><![CDATA[$]]></Prefix>
+		<Decimal><![CDATA[.]]></Decimal>
+		<Thousand><![CDATA[,]]></Thousand>
+		<PrefixNegative><![CDATA[(]]></PrefixNegative>
+		<SuffixNegative><![CDATA[)]]></SuffixNegative>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Wallis en Futuna-eilanden]]></Title>
+		<ISO2><![CDATA[WF]]></ISO2>
+		<ISO3><![CDATA[WLF]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Westelijke Sahara]]></Title>
+		<ISO2><![CDATA[EH]]></ISO2>
+		<ISO3><![CDATA[ESH]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Jemen]]></Title>
+		<ISO2><![CDATA[YE]]></ISO2>
+		<ISO3><![CDATA[YEM]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[YER]]></ISO>
+		<Title><![CDATA[Yemen Rial]]></Title>
+		<Prefix><![CDATA[﷼]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Joegoslavië]]></Title>
+		<ISO2><![CDATA[YU]]></ISO2>
+		<ISO3><![CDATA[YUG]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Zaïre]]></Title>
+		<ISO2><![CDATA[ZR]]></ISO2>
+		<ISO3><![CDATA[ZAR]]></ISO3>
+	</Country>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Zambia]]></Title>
+		<ISO2><![CDATA[ZM]]></ISO2>
+		<ISO3><![CDATA[ZMB]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[ZMW]]></ISO>
+		<Title><![CDATA[Zambian kwacha]]></Title>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+<Locale>
+	<Country>
+		<Title><![CDATA[Zimbabwe]]></Title>
+		<ISO2><![CDATA[ZW]]></ISO2>
+		<ISO3><![CDATA[ZWE]]></ISO3>
+	</Country>
+	<Currency>
+		<ISO><![CDATA[ZWD]]></ISO>
+		<Title><![CDATA[Zimbabwe Dollar]]></Title>
+		<Prefix><![CDATA[Z$]]></Prefix>
+		<SymbolDecimal><![CDATA[.]]></SymbolDecimal>
+		<SymbolThousand><![CDATA[,]]></SymbolThousand>
+		<Precision><![CDATA[2]]></Precision>
+	</Currency>
+</Locale>
+
+</Data>

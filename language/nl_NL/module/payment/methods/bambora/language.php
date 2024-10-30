@@ -1,0 +1,26 @@
+<?php
+/* Translated file created by toolXlate on 2020-09-12 for iso code: nl_NL */
+$lang = [
+	'CVV_1' => 'CVD komt overeen',
+	'err_process_failed' => 'De creditcard is niet verwerkt, de reactie van Bambora:',
+	'err_process_decline' => 'Weiger Code #%s %s',
+	'msg_address_result' => 'Adres Verificatie Resultaten: %s',
+	'msg_approval_success' => '%s - Goedkeuringscode: %s -> CVV2-resultaten: %s',
+	'msg_capture_manual' => 'De betaling werd niet verwerkt via de Bambora-gateway.',
+	'msg_website' => 'Dit moet handmatig worden gedaan op de Bambora-website.',
+	'allow_refund' => 'Sta Afwijzing/Terugbetalingen toe? Dit moet door Bambora zijn ingeschakeld voor uw verkopersaccount of terugbetalingen zijn niet toegestaan.',
+	'auth_type' => 'Autorisatie type',
+	'prefix_amex' => 'Voorvoegsel om te gebruiken voor creditcards van American Express. (Deze kaarten worden verwerkt en verzoend via American Express)',
+	'passcode' => 'Passcode (verstrekt door Bambora via het administratiescherm)',
+	'merch_id' => 'Handelaar-ID (verstrekt door Bambora na registratieproces)',
+	'user_id' => 'User Name (set during the sign-up process)',
+	'company_id' => 'Bedrijfslogin (ingesteld tijdens het aanmeldingsproces)',
+	'at_bambora' => '@Bambora',
+	'description' => 'Accepteer creditcardbetalingen via de betalingsgateway van Bambora / Beanstream.',
+	'title' => 'Bambora',
+	'CVV_2' => 'CVD komt niet overeen',
+	'CVV_3' => 'CVD niet geverifieerd',
+	'CVV_4' => 'CVD had aanwezig moeten zijn',
+	'CVV_5' => 'CVD-verstrekker kan verzoek niet verwerken',
+	'CVV_6' => 'CVD niet verstrekt',
+];
